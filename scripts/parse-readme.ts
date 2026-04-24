@@ -90,46 +90,48 @@ function parseRepo1(text: string): Prompt[] {
 }
 
 // ─── Parser 2: ZeroLu/awesome-gpt-image ──────────────────────────────────────
-// Markdown: ## Category → **bold title** + image + ```code``` + attribution
+// Format: ## Category → ### Entry Title → images → **Prompt:** ```code``` → **Source:**
 function parseRepo2(text: string): Prompt[] {
   const prompts: Prompt[] = [];
 
-  // Split by top-level ## headings to get categories
+  // Split by ## category headings
   const categorySections = text.split(/(?=^## .+$)/m);
 
   for (const catSection of categorySections) {
     const catHeadingMatch = catSection.match(/^## (.+)$/m);
     if (!catHeadingMatch) continue;
-    const rawCat = catHeadingMatch[1].replace(/[#*`]/g, '').trim();
-    // Skip navigation / meta sections
-    if (/table|content|contribut|license|resource/i.test(rawCat)) continue;
+    const rawCat = catHeadingMatch[1].replace(/[📷🎮📱🎬📰📚🎭🖼️📊*`#]/g, '').trim();
+    if (/table|content|contribut|license|resource|why gpt/i.test(rawCat)) continue;
 
-    // Find entries anchored by bold title lines
-    const entryMatches = [...catSection.matchAll(/\*\*([^*\n]{3,80})\*\*([\s\S]+?)(?=\n\*\*[^*\n]+\*\*|\n## |\n---|\Z)/gm)];
+    // Split by ### entry headings within each category
+    const entrySections = catSection.split(/(?=^### .+$)/m);
 
-    for (const match of entryMatches) {
-      const title = match[1].trim();
-      const body = match[2];
+    for (const entry of entrySections) {
+      const entryTitleMatch = entry.match(/^### (.+)$/m);
+      if (!entryTitleMatch) continue;
+      const title = entryTitleMatch[1].trim();
 
-      // Extract images (markdown syntax + raw URLs with image extensions)
-      const mdImgs = [...body.matchAll(/!\[[^\]]*\]\((https?:\/\/[^)]+)\)/g)].map(m => m[1]);
-      const rawImgs = [...body.matchAll(/(https?:\/\/\S+\.(?:png|jpg|jpeg|webp|gif)(?:\?[^\s)]*)?)/gi)].map(m => m[1]);
-      const images = [...new Set([...mdImgs, ...rawImgs])];
+      // Extract images — absolute URLs only (skip relative assets/ paths)
+      const imgTagUrls = [...entry.matchAll(/<img[^>]+src="(https?:\/\/[^"]+)"/g)].map(m => m[1]);
+      const mdImgUrls = [...entry.matchAll(/!\[[^\]]*\]\((https?:\/\/[^)\s]+)\)/g)].map(m => m[1]);
+      // Also match pbs.twimg.com and github user-attachments without extension
+      const rawUrls = [...entry.matchAll(/(https?:\/\/(?:pbs\.twimg\.com|.*github.*user-attachments)[^\s)"]+)/g)].map(m => m[1]);
+      const images = [...new Set([...imgTagUrls, ...mdImgUrls, ...rawUrls])];
 
-      // Extract prompt from code block
-      const codeMatch = body.match(/```[^\n]*\n([\s\S]+?)```/);
-      if (!codeMatch) continue;
-      const content = codeMatch[1].trim();
-      if (!content || content.length < 10) continue;
+      // Extract prompt text from code block following **Prompt:**
+      const promptSectionMatch = entry.match(/\*\*Prompt:\*\*[^\n]*\n```[^\n]*\n([\s\S]+?)```/);
+      if (!promptSectionMatch) continue;
+      const content = promptSectionMatch[1].trim();
+      if (!content || content.length < 5) continue;
 
-      // Attribution: @handle, [Name](url), or Source:
+      // Source attribution
       let author: { name: string; link?: string } = { name: 'Community' };
-      const atMatch = body.match(/@(\w+)/);
-      const linkMatch = body.match(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/);
-      if (atMatch) {
-        author = { name: `@${atMatch[1]}`, link: `https://twitter.com/${atMatch[1]}` };
-      } else if (linkMatch) {
-        author = { name: linkMatch[1], link: linkMatch[2] };
+      const sourceMatch = entry.match(/\*\*Source:\*\*[^\n]*\[@([^\]]+)\]\((https?:\/\/[^)]+)\)/);
+      const anyAtMatch = entry.match(/\[@([^\]]+)\]\((https?:\/\/x\.com[^)]+|https?:\/\/twitter[^)]+)\)/);
+      if (sourceMatch) {
+        author = { name: `@${sourceMatch[1]}`, link: sourceMatch[2] };
+      } else if (anyAtMatch) {
+        author = { name: `@${anyAtMatch[1]}`, link: anyAtMatch[2] };
       }
 
       const cjk = /[一-鿿぀-ゟ゠-ヿ]/.test(content);
@@ -149,7 +151,6 @@ function parseRepo2(text: string): Prompt[] {
     }
   }
 
-  // Deduplicate by prompt content fingerprint within this repo
   const seen = new Set<string>();
   return prompts.filter(p => {
     const key = p.content.slice(0, 100).toLowerCase();

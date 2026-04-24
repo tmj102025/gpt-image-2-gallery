@@ -2405,845 +2405,1038 @@
     },
     {
       "id": "r2-1",
-      "title": "Prompt:",
+      "title": "Celebrity in real life",
       "description": "",
       "content": "Sam Altman, Donald Trump, and Elon Musk working behind the counter of a busy movie theater",
-      "images": [],
+      "images": [
+        "https://github.com/user-attachments/assets/45e4f24f-4f73-4426-947d-e6ed51291956"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@flowersslop",
+        "link": "https://x.com/flowersslop/status/2044334054380552438"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📷 Photography & Photorealism"
+        "Photography & Photorealism"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-2",
-      "title": "Prompt:",
+      "title": "Convenience Store Night Scene",
       "description": "",
       "content": "Create an ultra-realistic urban street group photo at a convenience store entrance at 10 PM summer night. 3-4 young people briefly chatting at the entrance, someone holding drinks, someone sitting on plastic outdoor chairs, someone standing looking at their phone. Bright white light streaming through the glass doors and windows, warm yellow street lights and distant car headlights outside. Characters wearing everyday clothes: T-shirts, shirts, shorts, jeans, sneakers. No internet celebrity styling. Faces and postures must look like real pedestrians, not overly polished. Environment must include real convenience store elements: freezer stickers, promotional posters, trash cans, entrance mats, glass reflections, shared bikes on roadside, water droplets from drink bottles on ground. The image should look like a very authentic life slice captured by a photographer in the city. Focus on testing natural multi-person interactions, night convenience store lighting, glass reflections, and ordinary people's vibe restoration.",
-      "images": [],
+      "images": [
+        "https://github.com/user-attachments/assets/d529419b-8f8f-4dd4-a5f2-46d5fcbcf607",
+        "https://github.com/user-attachments/assets/91c95d69-1094-472e-9410-8a86bad9b086",
+        "https://github.com/user-attachments/assets/d529419b-8f8f-4dd4-a5f2-46d5fcbcf607\" /> | <img width=\"400\" alt=\"image\" src=\"https://github.com/user-attachments/assets/91c95d69-1094-472e-9410-8a86bad9b086"
+      ],
       "author": {
-        "name": "卡尔的AI沃茨",
-        "link": "https://mp.weixin.qq.com/s/ASxig6mFVYxrIE8-8Fthew"
+        "name": "Community"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📷 Photography & Photorealism"
+        "Photography & Photorealism"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-3",
-      "title": "Prompt:",
+      "title": "RAW iPhone Quality - Subway Station",
       "description": "",
       "content": "Create a completely RAW quality, unprocessed, unedited image with full iPhone camera quality. A subway station in USA, a momentary blur. The subway is in motion. In front of the subway, there is an elderly woman and man.",
-      "images": [],
+      "images": [
+        "https://pbs.twimg.com/media/HFPFd4ZbkAMW8ox?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HFPFe0VbkAYeflZ?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@WolfRiccardo",
+        "link": "https://x.com/WolfRiccardo/status/2041192232623972441"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📷 Photography & Photorealism"
+        "Photography & Photorealism"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-4",
-      "title": "Prompt:",
+      "title": "Apple Park Keynote Crowd Shot",
       "description": "",
       "content": "Amateur iPhone photo at Apple Park during the iPhone 20 keynote, Tim Cook presenting on stage. Shot from the crowd at a distance",
       "images": [],
       "author": {
-        "name": "Community"
+        "name": "@patrickassale",
+        "link": "https://x.com/patrickassale/status/2044687244368441742"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📷 Photography & Photorealism"
+        "Photography & Photorealism"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-5",
-      "title": "Prompt:",
+      "title": "Handwritten Notebook Photo",
       "description": "",
       "content": "Amateur photo of an open notebook lying flat, filled with handwritten notes in black ballpoint pen. The handwriting is casual and slightly messy, like personnal notes, natural imperfections, crossed out words, underlined headings. Shot from slightly above, natural daylight from a window, no flash. Casual desk setting, shot on iPhone",
       "images": [],
       "author": {
-        "name": "Community"
+        "name": "@patrickassale",
+        "link": "https://x.com/patrickassale/status/2044569086013718958"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📷 Photography & Photorealism"
+        "Photography & Photorealism"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-6",
-      "title": "Prompt:",
+      "title": "Rice Grain Micro Typography",
       "description": "",
       "content": "A massive pile of rice, and on one single grain of rice there is tiny text that reads \"wOw\"",
-      "images": [],
+      "images": [
+        "https://pbs.twimg.com/media/HGc-2eKWYAATrs9?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@adonis_singh",
+        "link": "https://x.com/adonis_singh/status/2046673729082560919"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📷 Photography & Photorealism"
+        "Photography & Photorealism"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-7",
-      "title": "Prompt:",
+      "title": "360 Equirectangular Panorama",
       "description": "",
       "content": "360 equirectangular image of [place]",
-      "images": [],
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2046725535439482880/img/v9e7898p1ynJv-xz.jpg"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@LexnLin",
+        "link": "https://x.com/LexnLin/status/2046675069678563385"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📷 Photography & Photorealism"
+        "Photography & Photorealism"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-8",
-      "title": "Prompt:",
+      "title": "Hitman Style In-Game Footage",
       "description": "",
       "content": "A Hitman level where you are in the OpenAI HQ and your mission is to steal GPT-6 without getting caught",
-      "images": [],
+      "images": [
+        "https://github.com/user-attachments/assets/e89dc393-653c-42e7-87f8-cd7741640f12"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@flowersslop",
+        "link": "https://x.com/flowersslop/status/2044734896321532390"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🎮 Game & Entertainment"
+        "Game & Entertainment"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-9",
-      "title": "Prompt:",
+      "title": "Black Myth: Wukong Game Scene",
       "description": "",
       "content": "Generate a Black Myth: Wukong game scene where Wukong is knocked away by Erlang Shen",
       "images": [
-        "https://pbs.twimg.com/media/HFPAX19XMAAJ8V_?format=jpg&name=large",
-        "https://pbs.twimg.com/media/HFPAYuEaIAAaEyD?format=jpg&name=large"
+        "https://github.com/user-attachments/assets/49e41036-4ad4-4908-a3a8-88a2f28f1148",
+        "https://github.com/user-attachments/assets/3e6a725a-a983-4556-93de-e4eb2ed135ed",
+        "https://github.com/user-attachments/assets/49e41036-4ad4-4908-a3a8-88a2f28f1148\" /> | <img width=\"400\" alt=\"image\" src=\"https://github.com/user-attachments/assets/3e6a725a-a983-4556-93de-e4eb2ed135ed"
       ],
       "author": {
-        "name": "Nano Banana 2",
-        "link": "https://pbs.twimg.com/media/HFPAX19XMAAJ8V_?format=jpg&name=large"
+        "name": "Community"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🎮 Game & Entertainment"
+        "Game & Entertainment"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-10",
-      "title": "Prompt:",
+      "title": "GTA 6 Style In-Game Footage",
       "description": "",
       "content": "GTA 6 in-game footage, very detailed, very realistic. Close-up shot taken from a stationary 4k monitor. (There's a slight blurriness in the image, as it feels like it was taken handheld). A wide, bright environment. Realistic details. The character is walking on the beach with / :dog.",
-      "images": [],
+      "images": [
+        "https://pbs.twimg.com/media/HFPAX19XMAAJ8V_?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HFPAYuEaIAAaEyD?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@WolfRiccardo",
+        "link": "https://x.com/WolfRiccardo/status/2041187268711321735"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🎮 Game & Entertainment"
+        "Game & Entertainment"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-11",
-      "title": "Prompt:",
+      "title": "GTA 6 Wedding Mission Screenshot",
       "description": "",
       "content": "Generate a GTA 6 gameplay screenshot of [scene description]",
-      "images": [],
+      "images": [
+        "https://pbs.twimg.com/media/HGU8siPXMAACZEd?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGU8siPW8AAEsq-?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGU8siOXgAAh8gh?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGU8siPXoAAUnop?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@MrLarus",
+        "link": "https://x.com/MrLarus/status/2046109786840711246"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🎮 Game & Entertainment"
+        "Game & Entertainment"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-12",
-      "title": "Prompt:",
+      "title": "League of Legends Mid Lane Screenshot",
       "description": "",
       "content": "Help me generate a screenshot of Trump versus Khamenei in the mid lane in League of Legends",
-      "images": [],
+      "images": [
+        "https://pbs.twimg.com/media/HGa7l2cbIAA_3nt?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@underwoodxie96",
+        "link": "https://x.com/underwoodxie96/status/2046529342415790275"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🎮 Game & Entertainment"
+        "Game & Entertainment"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-13",
-      "title": "Prompt:",
+      "title": "100 Pixel Art Items Grid",
       "description": "",
       "content": "Create a single image containing a grid of 100 completely unique pixel art items, each with a meaningful label",
-      "images": [],
+      "images": [
+        "https://pbs.twimg.com/amplify_video_thumb/2046534148748451840/img/jbY5FyJJIEVLKH2J.jpg"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@ProperPrompter",
+        "link": "https://x.com/ProperPrompter/status/2046534215311970694"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🎮 Game & Entertainment"
+        "Game & Entertainment"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-14",
-      "title": "Prompt:",
+      "title": "Zelda: Tears of the Kingdom Style",
       "description": "",
-      "content": "gameplay screenshot of a lion fighting against an npc in gta san andreas",
-      "images": [],
+      "content": "In the game Zelda totk link is in a e531 series train made by him",
+      "images": [
+        "https://pbs.twimg.com/media/HFJzGO8WMAA_HBa?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HFJzy-QaYAA2oD-?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HFJz0LgXQAE0ZBu?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HFKKnpZaYAAWDj6?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@marmaduke091",
+        "link": "https://x.com/marmaduke091/status/2040820686751432990"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🎮 Game & Entertainment"
+        "Game & Entertainment"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-15",
-      "title": "Prompt:",
+      "title": "GTA San Andreas Gameplay Screenshot",
       "description": "",
-      "content": "Generate a screenshot of a TikTok live stream featuring a beautiful woman streaming.",
-      "images": [],
+      "content": "gameplay screenshot of a lion fighting against an npc in gta san andreas",
+      "images": [
+        "https://pbs.twimg.com/media/HFH_lAIboAAG7Wi?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HFH_oyAXMAEMnDM?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@flowersslop",
+        "link": "https://x.com/flowersslop/status/2040693687500341568"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📱 UI/UX & Social Media"
+        "Game & Entertainment"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-16",
-      "title": "Prompt:",
+      "title": "Live Streaming Screenshot",
       "description": "",
-      "content": "9:16 aspect ratio, generate a screenshot of a Douyin live stream, inside is Liu Yifei live streaming, Liu Yifei is holding a sign in her hand, the sign says Tonight's live stream, welcome to join Yifei for a chat!",
-      "images": [],
+      "content": "Generate a screenshot of a TikTok live stream featuring a beautiful woman streaming.",
+      "images": [
+        "https://github.com/user-attachments/assets/be639d3b-617b-4332-98eb-4deb2484ac66"
+      ],
       "author": {
         "name": "Community"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📱 UI/UX & Social Media"
+        "UI/UX & Social Media"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-17",
-      "title": "Prompt:",
+      "title": "Douyin Livestream Screenshot",
       "description": "",
-      "content": "Screenshot of a YouTube video showing someone who time-traveled to the Middle Ages",
+      "content": "9:16 aspect ratio, generate a screenshot of a Douyin live stream, inside is Liu Yifei live streaming, Liu Yifei is holding a sign in her hand, the sign says Tonight's live stream, welcome to join Yifei for a chat!",
       "images": [],
       "author": {
-        "name": "Community"
+        "name": "@alanblogsooo",
+        "link": "https://x.com/alanblogsooo/status/2044784762594918516"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📱 UI/UX & Social Media"
+        "UI/UX & Social Media"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-18",
-      "title": "Prompt:",
+      "title": "YouTube Time Travel Screenshot",
       "description": "",
-      "content": "\"Song Dynasty People's Moments\"/\"SONG DYNASTY SOCIAL MEDIA FEED\", Ancient and modern time-travel humor fusion interface design style, The image simulates a mobile phone social media interface, but the content is entirely Song Dynasty scenes, The avatar is a portrait of a Song Dynasty literati, Username \"Su Dongpo SuShi_Official\", Post content \"Just arrived in Huangzhou, demoted but feeling okay. Made Dongpo pork myself today, tastes amazing, recipe attached:\", The attached image is a close-up of Dongpo pork in Gongbi painting style, Likes list \"Huang Tingjian, Qin Guan, Fo Yin etc. 126 people\", Comments section \"Wang Anshi: Hehe\" \"Sima Guang: Still the same taste\", Interface elements such as the like icon are replaced with Song Dynasty patterns, The status bar shows \"Great Song Mobile 5G\" and \"Third Year of Yuanfeng\", The color scheme is mobile phone dark mode paired with elegant Song Dynasty tones, A masterpiece of fun collision between history and social media",
-      "images": [],
+      "content": "Screenshot of a YouTube video showing someone who time-traveled to the Middle Ages",
+      "images": [
+        "https://pbs.twimg.com/media/HFByWu7bsAAxlJd?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HFB0ZZSXkAAwp1Z?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HFB0Zr5WAAAXIQg?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@flowersslop",
+        "link": "https://x.com/flowersslop/status/2040261168460108213"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📱 UI/UX & Social Media"
+        "UI/UX & Social Media"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-19",
-      "title": "Prompt:",
+      "title": "Song Dynasty Social Media Feed",
       "description": "",
-      "content": "Generate a screenshot of [historical figure name] on [platform name]",
+      "content": "\"Song Dynasty People's Moments\"/\"SONG DYNASTY SOCIAL MEDIA FEED\", Ancient and modern time-travel humor fusion interface design style, The image simulates a mobile phone social media interface, but the content is entirely Song Dynasty scenes, The avatar is a portrait of a Song Dynasty literati, Username \"Su Dongpo SuShi_Official\", Post content \"Just arrived in Huangzhou, demoted but feeling okay. Made Dongpo pork myself today, tastes amazing, recipe attached:\", The attached image is a close-up of Dongpo pork in Gongbi painting style, Likes list \"Huang Tingjian, Qin Guan, Fo Yin etc. 126 people\", Comments section \"Wang Anshi: Hehe\" \"Sima Guang: Still the same taste\", Interface elements such as the like icon are replaced with Song Dynasty patterns, The status bar shows \"Great Song Mobile 5G\" and \"Third Year of Yuanfeng\", The color scheme is mobile phone dark mode paired with elegant Song Dynasty tones, A masterpiece of fun collision between history and social media",
       "images": [],
       "author": {
-        "name": "Community"
+        "name": "@Panda20230902",
+        "link": "https://x.com/Panda20230902/status/2045385588065313057"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📱 UI/UX & Social Media"
+        "UI/UX & Social Media"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-20",
-      "title": "Prompt:",
+      "title": "Ancient Figures on Modern Social Platforms",
       "description": "",
-      "content": "Generate a high-fidelity mobile e-commerce app homepage screenshot inspired by mainstream Chinese e-commerce apps in 2026. The interface should look fully realistic, with complete mobile-app UI logic and strong commercial design polish.\n\nLayout requirements:\n- status bar with time 9:41, 5G signal, and battery icon\n- search area with a city selector on the left, a rounded search box in the center, and message plus scan icons on the right\n- horizontal category tabs below the search area\n- top promotional carousel banner\n- 10-icon function grid\n- flash-sale module with countdown and three product cards\n- \"guess you like\" two-column product waterfall with at least 6 product cards\n- bottom tab bar with five tabs\n\nUse these exact Chinese labels where appropriate:\n- city: \"杭州\"\n- search placeholder: \"搜索耳机、咖啡机、运动鞋\"\n- category tabs: \"推荐、数码、家电、服饰、美妆、食品、运动、家居\"\n- top banner: \"618 预售开启\" and \"每满300减50\"\n- function grid: \"超市、百亿补贴、秒杀、直播、充值中心、到家、领券、品牌馆、全球购、排行榜\"\n- flash sale title: \"限时秒杀\"\n- recommendation section: \"猜你喜欢\"\n- bottom tabs: \"首页、分类、购物车、消息、我的\"\n\nAll Chinese text must be clear and readable with realistic fonts. Spacing, icon style, white space, shadows, rounded corners, dividers, and tag treatments should closely resemble a real app screenshot rather than concept art.",
-      "images": [],
+      "content": "Generate a screenshot of [historical figure name] on [platform name]",
+      "images": [
+        "https://pbs.twimg.com/media/HGbtA0KagAADPAR?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGbtH6ua4AAyM34?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGbtJryboAAWff1?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGbtP1CaIAA0FH_?format=jpg&name=large"
+      ],
       "author": {
-        "name": "卡尔的AI沃茨",
-        "link": "https://mp.weixin.qq.com/s/ASxig6mFVYxrIE8-8Fthew"
+        "name": "@MrLarus",
+        "link": "https://x.com/MrLarus/status/2046585220393324553"
       },
-      "language": "zh",
+      "language": "en",
       "featured": false,
       "categories": [
-        "📱 UI/UX & Social Media"
+        "UI/UX & Social Media"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-21",
-      "title": "Prompt:",
+      "title": "E-commerce App Homepage",
       "description": "",
-      "content": "Create a high-fidelity Chinese music app player interface screenshot in mobile portrait orientation, with refined visuals similar to a modern streaming player. Use dark mode, with the background derived from a blurred and diffused version of the album cover colors. Place a large square album cover in the center with subtle shadow and rounded corners.\n\nInterface requirements:\n- top status bar with time 18:26\n- navigation bar with a back arrow on the left, a centered title, and a more-options icon on the right\n- playback progress bar showing current time 01:42 and total duration 04:18\n- playback controls for shuffle, previous, play/pause, next, and repeat\n- lyrics section showing 5 to 7 scrolling lines, with the current line highlighted\n- action row with like, comment, download, add to playlist, and share\n- bottom area with device casting and playback queue entry\n\nUse these exact Chinese labels and names:\n- title: \"正在播放\"\n- song name: \"海边的晚风\"\n- artist: \"林秋\"\n- album: \"夏夜实验室\"\n\nThe lyrics layout, button icons, reflections, shadows, and dark-mode layering should feel like a real production interface rather than a Dribbble concept.",
-      "images": [],
+      "content": "Generate a high-fidelity mobile e-commerce app homepage screenshot inspired by mainstream Chinese e-commerce apps in 2026. The interface should look fully realistic, with complete mobile-app UI logic and strong commercial design polish.\n\nLayout requirements:\n- status bar with time 9:41, 5G signal, and battery icon\n- search area with a city selector on the left, a rounded search box in the center, and message plus scan icons on the right\n- horizontal category tabs below the search area\n- top promotional carousel banner\n- 10-icon function grid\n- flash-sale module with countdown and three product cards\n- \"guess you like\" two-column product waterfall with at least 6 product cards\n- bottom tab bar with five tabs\n\nUse these exact Chinese labels where appropriate:\n- city: \"杭州\"\n- search placeholder: \"搜索耳机、咖啡机、运动鞋\"\n- category tabs: \"推荐、数码、家电、服饰、美妆、食品、运动、家居\"\n- top banner: \"618 预售开启\" and \"每满300减50\"\n- function grid: \"超市、百亿补贴、秒杀、直播、充值中心、到家、领券、品牌馆、全球购、排行榜\"\n- flash sale title: \"限时秒杀\"\n- recommendation section: \"猜你喜欢\"\n- bottom tabs: \"首页、分类、购物车、消息、我的\"\n\nAll Chinese text must be clear and readable with realistic fonts. Spacing, icon style, white space, shadows, rounded corners, dividers, and tag treatments should closely resemble a real app screenshot rather than concept art.",
+      "images": [
+        "https://github.com/user-attachments/assets/6b709a24-b00a-4942-8c77-8f10ac03e8f8",
+        "https://github.com/user-attachments/assets/c5589395-f03e-4e52-9a7f-a39adc9cc8bb",
+        "https://github.com/user-attachments/assets/6b709a24-b00a-4942-8c77-8f10ac03e8f8\" /> | <img width=\"400\" alt=\"image\" src=\"https://github.com/user-attachments/assets/c5589395-f03e-4e52-9a7f-a39adc9cc8bb"
+      ],
       "author": {
-        "name": "卡尔的AI沃茨",
-        "link": "https://mp.weixin.qq.com/s/ASxig6mFVYxrIE8-8Fthew"
+        "name": "Community"
       },
       "language": "zh",
       "featured": false,
       "categories": [
-        "📱 UI/UX & Social Media"
+        "UI/UX & Social Media"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-22",
-      "title": "Prompt:",
+      "title": "Music Player Interface",
       "description": "",
-      "content": "Generate a UI design system for me in xx style, including web pages, mobile, cards, controls, buttons, and others",
-      "images": [],
+      "content": "Create a high-fidelity Chinese music app player interface screenshot in mobile portrait orientation, with refined visuals similar to a modern streaming player. Use dark mode, with the background derived from a blurred and diffused version of the album cover colors. Place a large square album cover in the center with subtle shadow and rounded corners.\n\nInterface requirements:\n- top status bar with time 18:26\n- navigation bar with a back arrow on the left, a centered title, and a more-options icon on the right\n- playback progress bar showing current time 01:42 and total duration 04:18\n- playback controls for shuffle, previous, play/pause, next, and repeat\n- lyrics section showing 5 to 7 scrolling lines, with the current line highlighted\n- action row with like, comment, download, add to playlist, and share\n- bottom area with device casting and playback queue entry\n\nUse these exact Chinese labels and names:\n- title: \"正在播放\"\n- song name: \"海边的晚风\"\n- artist: \"林秋\"\n- album: \"夏夜实验室\"\n\nThe lyrics layout, button icons, reflections, shadows, and dark-mode layering should feel like a real production interface rather than a Dribbble concept.",
+      "images": [
+        "https://github.com/user-attachments/assets/88f33c6a-c307-4e7a-af7e-5f692cbf41a1",
+        "https://github.com/user-attachments/assets/ee3d40db-3918-4974-8b82-68cd166c97b2",
+        "https://github.com/user-attachments/assets/88f33c6a-c307-4e7a-af7e-5f692cbf41a1\" /> | <img width=\"941\" height=\"1672\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ee3d40db-3918-4974-8b82-68cd166c97b2"
+      ],
       "author": {
         "name": "Community"
       },
-      "language": "en",
+      "language": "zh",
       "featured": false,
       "categories": [
-        "📱 UI/UX & Social Media"
+        "UI/UX & Social Media"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-23",
-      "title": "Prompt:",
+      "title": "Custom Style UI Design System",
       "description": "",
-      "content": "Generate image:\nTaobao product detail page of a T-800 robot, showing:\nfront, side, and back three-view drawings of the robot,\nproduct price,\nproduct details,\nfunctions and usage scenarios",
+      "content": "Generate a UI design system for me in xx style, including web pages, mobile, cards, controls, buttons, and others",
       "images": [],
       "author": {
-        "name": "Community"
+        "name": "@stark_nico99",
+        "link": "https://x.com/stark_nico99/status/2045836554451706125"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📱 UI/UX & Social Media"
+        "UI/UX & Social Media"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-24",
-      "title": "Prompt:",
+      "title": "T-800 Taobao Product Detail Page",
       "description": "",
-      "content": "entire superman movie image collage one shot in one output",
+      "content": "Generate image:\nTaobao product detail page of a T-800 robot, showing:\nfront, side, and back three-view drawings of the robot,\nproduct price,\nproduct details,\nfunctions and usage scenarios",
       "images": [],
       "author": {
-        "name": "Community"
+        "name": "@rionaifantasy",
+        "link": "https://x.com/rionaifantasy/status/2045356799751303194"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🎬 Video, Animation & Collage"
+        "UI/UX & Social Media"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-25",
-      "title": "Prompt:",
+      "title": "Movie Collage",
       "description": "",
-      "content": "Create a \"Where is [Your Name]\" crowd search poster set in the city of your choosing",
-      "images": [],
+      "content": "entire superman movie image collage one shot in one output",
+      "images": [
+        "https://github.com/user-attachments/assets/68495d40-f558-4d7a-aacf-40ef36264679"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@chetaslua",
+        "link": "https://x.com/chetaslua/status/2044462992176386532"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🎬 Video, Animation & Collage"
+        "Video, Animation & Collage"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-26",
-      "title": "Prompt:",
+      "title": "Where Is [Your Name] Crowd Search Poster",
       "description": "",
-      "content": "Create an eight-panel manga about GPT-Image-2 launching today",
-      "images": [],
+      "content": "Create a \"Where is [Your Name]\" crowd search poster set in the city of your choosing",
+      "images": [
+        "https://pbs.twimg.com/media/HGcgIHWWgAEph1p?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@icreatelife",
+        "link": "https://x.com/icreatelife/status/2046639884421550482"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🎬 Video, Animation & Collage"
+        "Video, Animation & Collage"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-27",
-      "title": "Prompt:",
+      "title": "Eight-Panel GPT Image 2 Launch Manga",
       "description": "",
-      "content": "Generate a 1980s propaganda poster. Use the exact slogan \"热烈庆祝GPT-Image-2全量开放\". Include Sam Altman, Dario Amodei, and Elon Musk, and give Dario Amodei a red scarf.",
-      "images": [],
+      "content": "Create an eight-panel manga about GPT-Image-2 launching today",
+      "images": [
+        "https://pbs.twimg.com/media/HGcOKlnaYAAFJcW?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@venturetwins",
+        "link": "https://x.com/venturetwins/status/2046620134933250409"
       },
-      "language": "zh",
+      "language": "en",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Video, Animation & Collage"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-28",
-      "title": "Prompt:",
+      "title": "1980s Propaganda Poster",
       "description": "",
-      "content": "Design a 3:4 vertical poster for a new Chinese trendy tea launch. Use a New Chinese visual style that feels light-luxury and restrained. The palette should be dark green, off-white, and gold, with rice-paper texture, elegant negative space, landscape accents, and modern layout design.\n\nMain subject:\na visually appealing cold-brew tea with tea leaves, citrus, ice cubes, and touches of gold foil.\n\nThe poster must accurately display the following exact Chinese copy:\n\"山川茶事\"\n\"山柚观音\"\n\"冷泡系列\"\n\"新品上市\"\n\"一口清醒，半城入夏\"\n\"限定尝鲜价\"\n\"中杯 16 元\"\n\"大杯 19 元\"\n\"门店活动\"\n\"第二杯半价\"\n\"加 3 元升级轻乳版\"\n\"每日前 100 名赠限定杯套\"\n\"推荐风味\"\n\"观音茶底 / 西柚果香 / 轻乳云顶 / 冰感回甘\"\n\"活动时间 4月20日 至 5月10日\"\n\"扫码点单\"\n\"SHANCHUAN TEA\"\n\nFine print:\n\"图片仅供参考，请以门店实际售卖为准\"\n\nMaintain a clear promotional hierarchy while keeping the overall feeling sophisticated rather than cheap or overly e-commerce-like. Pay special attention to small text, numbers, prices, info modules, and Chinese typography aesthetics.",
-      "images": [],
+      "content": "Generate a 1980s propaganda poster. Use the exact slogan \"热烈庆祝GPT-Image-2全量开放\". Include Sam Altman, Dario Amodei, and Elon Musk, and give Dario Amodei a red scarf.",
+      "images": [
+        "https://pbs.twimg.com/media/HGbWGhYaAAEtoTn?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@akokoi1",
+        "link": "https://x.com/akokoi1/status/2046558658096738672"
       },
       "language": "zh",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-29",
-      "title": "Prompt:",
+      "title": "Chinese Tea Drink Product Launch Poster",
       "description": "",
-      "content": "Create a Chinese infographic poster themed \"一杯咖啡 如何来到你手里\" (\"How a Cup of Coffee Reaches You\"). Use a premium information-design style with both educational clarity and commercial appeal. The layout should include directional flow, arrows, data boxes, icons, simple illustrations, and modular cards. Use coffee brown, milk white, ink black, and copper accents.\n\nThe infographic must include:\n- 01 Planting: elevation 1200-2200m, suitable temperature 18-24C, picking season Nov-March\n- 02 Processing: sun-dried, washed, honey process\n- 03 Roasting: light roast = brighter, medium roast = balanced, dark roast = richer\n- 04 Grinding: pour-over = coarse, espresso = fine, cold brew = medium-coarse\n- 05 Extraction: powder-water ratio, water temperature, and time all affect flavor\n- flavor keywords: floral / citrus / nutty / caramel / chocolate / smoky\n\nUse this exact fine print:\n\"适合用于咖啡入门科普与门店展示\"\n\nThe composition should balance text and visuals while keeping the design elegant. Focus on long infographic handling, numeric information, temperatures, numbered sections, concise descriptions, slash-separated flavor words, and modular layout. It should look like a premium display board, not a classroom slide deck.",
-      "images": [],
+      "content": "Design a 3:4 vertical poster for a new Chinese trendy tea launch. Use a New Chinese visual style that feels light-luxury and restrained. The palette should be dark green, off-white, and gold, with rice-paper texture, elegant negative space, landscape accents, and modern layout design.\n\nMain subject:\na visually appealing cold-brew tea with tea leaves, citrus, ice cubes, and touches of gold foil.\n\nThe poster must accurately display the following exact Chinese copy:\n\"山川茶事\"\n\"山柚观音\"\n\"冷泡系列\"\n\"新品上市\"\n\"一口清醒，半城入夏\"\n\"限定尝鲜价\"\n\"中杯 16 元\"\n\"大杯 19 元\"\n\"门店活动\"\n\"第二杯半价\"\n\"加 3 元升级轻乳版\"\n\"每日前 100 名赠限定杯套\"\n\"推荐风味\"\n\"观音茶底 / 西柚果香 / 轻乳云顶 / 冰感回甘\"\n\"活动时间 4月20日 至 5月10日\"\n\"扫码点单\"\n\"SHANCHUAN TEA\"\n\nFine print:\n\"图片仅供参考，请以门店实际售卖为准\"\n\nMaintain a clear promotional hierarchy while keeping the overall feeling sophisticated rather than cheap or overly e-commerce-like. Pay special attention to small text, numbers, prices, info modules, and Chinese typography aesthetics.",
+      "images": [
+        "https://github.com/user-attachments/assets/552ba84c-41cb-401d-a1b0-ee13a6f7aa41"
+      ],
       "author": {
         "name": "Community"
       },
       "language": "zh",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-30",
-      "title": "Prompt:",
+      "title": "Coffee Journey Infographic",
       "description": "",
-      "content": "Please generate a key character relationship diagram for \"XXX\".",
-      "images": [],
+      "content": "Create a Chinese infographic poster themed \"一杯咖啡 如何来到你手里\" (\"How a Cup of Coffee Reaches You\"). Use a premium information-design style with both educational clarity and commercial appeal. The layout should include directional flow, arrows, data boxes, icons, simple illustrations, and modular cards. Use coffee brown, milk white, ink black, and copper accents.\n\nThe infographic must include:\n- 01 Planting: elevation 1200-2200m, suitable temperature 18-24C, picking season Nov-March\n- 02 Processing: sun-dried, washed, honey process\n- 03 Roasting: light roast = brighter, medium roast = balanced, dark roast = richer\n- 04 Grinding: pour-over = coarse, espresso = fine, cold brew = medium-coarse\n- 05 Extraction: powder-water ratio, water temperature, and time all affect flavor\n- flavor keywords: floral / citrus / nutty / caramel / chocolate / smoky\n\nUse this exact fine print:\n\"适合用于咖啡入门科普与门店展示\"\n\nThe composition should balance text and visuals while keeping the design elegant. Focus on long infographic handling, numeric information, temperatures, numbered sections, concise descriptions, slash-separated flavor words, and modular layout. It should look like a premium display board, not a classroom slide deck.",
+      "images": [
+        "https://github.com/user-attachments/assets/ac0ed885-5b27-46d5-a163-f9e3c15dca3b"
+      ],
       "author": {
         "name": "Community"
       },
-      "language": "en",
+      "language": "zh",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-31",
-      "title": "Prompt:",
+      "title": "Key Character Relationship Map",
       "description": "",
-      "content": "Generate a detailed explanatory diagram of Jingdezhen blue and white porcelain, accompanied by detailed Chinese knowledge analysis.",
+      "content": "Please generate a key character relationship diagram for \"XXX\".",
       "images": [],
       "author": {
-        "name": "Community"
+        "name": "@yihui_indie",
+        "link": "https://x.com/yihui_indie/status/2045179926270361890"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-32",
-      "title": "Prompt:",
+      "title": "Jingdezhen Blue-and-White Porcelain Diagram",
       "description": "",
-      "content": "Please automatically generate a \"museum catalog-style Chinese disassembly infographic\" based on the [Subject].\n\nThe entire image is required to combine a realistic main visual, structural disassembly, Chinese annotations, material descriptions, pattern meanings, color meanings, and core feature summaries. You need to automatically determine the most appropriate main subject, clothing system, artifact structure, era style, key components, material craftsmanship, color scheme, and layout structure based on the [Subject], and the user does not need to provide any other information.\n\nThe overall style should be: national museum exhibition boards, historical clothing catalogs, and cultural/museum thematic infographics, rather than ordinary posters, ancient-style portraits, e-commerce detail pages, or anime illustrations. The background uses paper textures such as off-white, silk white, and light tea color, making the overall look premium, restrained, professional, and collectible.\n\nThe layout is fixed as:\n- Top: Chinese main title + subtitle + introduction\n- Left: Structural disassembly area, with Chinese lead lines annotating key components, accompanied by close-up details\n- Upper right: Material / craftsmanship / texture area, displaying real texture samples with descriptions\n- Middle right: Pattern / color / meaning area, displaying the main color palette, pattern samples, and cultural explanations\n- Bottom: Dressing order / composition flowchart + core feature summary\n\nIf the subject is suitable for character display, use a full-body standing posture of a real person as the central subject; if it is more suitable for artifacts or single structures, change it to a central subject disassembly diagram, but the overall form remains a complete Chinese infographic. All text must be in Simplified Chinese, clear, neat, and readable, without garbled characters, typos, English, or pinyin. The focus is on highlighting real structures, material differences, cultural explanations, and a catalog atmosphere.\n\nAvoid: poster feel, studio portrait feel, e-commerce feel, anime feel, cosplay feel, random annotations, incorrect structures, blurry text, fake materials, excessive decoration.",
+      "content": "Generate a detailed explanatory diagram of Jingdezhen blue and white porcelain, accompanied by detailed Chinese knowledge analysis.",
       "images": [],
       "author": {
-        "name": "Community"
+        "name": "@joshesye",
+        "link": "https://x.com/joshesye/status/2045764695827562686"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-33",
-      "title": "Prompt:",
+      "title": "Museum Catalog-Style Chinese Disassembly Infographic",
       "description": "",
-      "content": "Create a high-end skincare e-commerce hero poster for \"澄光维稳精华\" (\"Clarifying Stabilizing Essence\"). The style should be clean, light-luxury, and strongly science-skincare oriented. In the center, place a semi-transparent frosted-glass essence bottle filled with golden liquid and subtle water-droplet reflections. Use an off-white to warm gray gradient background with liquid-flow elements and microscopic molecular-structure decoration.\n\nThe poster must include the following exact Chinese copy:\n\"澄光\"\n\"维稳精华\"\n\"修护屏障\"\n\"舒缓泛红\"\n\"细腻透亮\"\n\"第 2 代升级配方\"\n\"核心成分\"\n\"神经酰胺\"\n\"泛醇 B5\"\n\"积雪草提取物\"\n\"微囊脂质体\"\n\"适合人群\"\n\"敏感肌\"\n\"熬夜肌\"\n\"换季不稳定肌\"\n\"限时到手价 229 元\"\n\"买 1 送 3\"\n\"赠洁面 15ml\"\n\"赠精华 5ml\"\n\"赠面霜 10g\"\n\nFine print:\n\"实际效果因人而异，请坚持使用\"\n\nFocus on product selling points, pricing hierarchy, gift-list modules, product naming, and short functional phrases. The result should feel premium and not tacky or overly live-commerce styled.",
-      "images": [
-        "https://pbs.twimg.com/media/HGOtEbUbwAAnR5l?format=jpg&name=large",
-        "https://pbs.twimg.com/media/HGO_Rb9bgAAdy6i?format=jpg&name=large"
-      ],
+      "content": "Please automatically generate a \"museum catalog-style Chinese disassembly infographic\" based on the [Subject].\n\nThe entire image is required to combine a realistic main visual, structural disassembly, Chinese annotations, material descriptions, pattern meanings, color meanings, and core feature summaries. You need to automatically determine the most appropriate main subject, clothing system, artifact structure, era style, key components, material craftsmanship, color scheme, and layout structure based on the [Subject], and the user does not need to provide any other information.\n\nThe overall style should be: national museum exhibition boards, historical clothing catalogs, and cultural/museum thematic infographics, rather than ordinary posters, ancient-style portraits, e-commerce detail pages, or anime illustrations. The background uses paper textures such as off-white, silk white, and light tea color, making the overall look premium, restrained, professional, and collectible.\n\nThe layout is fixed as:\n- Top: Chinese main title + subtitle + introduction\n- Left: Structural disassembly area, with Chinese lead lines annotating key components, accompanied by close-up details\n- Upper right: Material / craftsmanship / texture area, displaying real texture samples with descriptions\n- Middle right: Pattern / color / meaning area, displaying the main color palette, pattern samples, and cultural explanations\n- Bottom: Dressing order / composition flowchart + core feature summary\n\nIf the subject is suitable for character display, use a full-body standing posture of a real person as the central subject; if it is more suitable for artifacts or single structures, change it to a central subject disassembly diagram, but the overall form remains a complete Chinese infographic. All text must be in Simplified Chinese, clear, neat, and readable, without garbled characters, typos, English, or pinyin. The focus is on highlighting real structures, material differences, cultural explanations, and a catalog atmosphere.\n\nAvoid: poster feel, studio portrait feel, e-commerce feel, anime feel, cosplay feel, random annotations, incorrect structures, blurry text, fake materials, excessive decoration.",
+      "images": [],
       "author": {
-        "name": "Prompt 1",
-        "link": "https://pbs.twimg.com/media/HGOtEbUbwAAnR5l?format=jpg&name=large"
+        "name": "@MrLarus",
+        "link": "https://x.com/MrLarus/status/2045504669401653414"
       },
-      "language": "zh",
+      "language": "en",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-34",
-      "title": "Prompt:",
+      "title": "High-End Skincare Product Poster",
       "description": "",
-      "content": "Generate a series of gongbi-style bookmark designs\nDesign a postcard collaboration between The Little Prince and SpaceX\nGenerate a single-day calendar for April 19, 2026 themed around The Garden of Words\nGenerate a series of Labor Day hand-held sign designs\nGenerate a poster for the 2026 Grain Rain solar term\nGenerate a set of icon fonts for a sports app\nDesign a film-photography-style poster with the theme \"Toward the mountains and sea\"\nDesign a Shanghai postcard in black line-art style\nDesign a set of seal carvings for \"Elon Musk\"\nDesign a set of co-branded promotional materials for Durex and Chayan Yuese",
-      "images": [],
+      "content": "Create a high-end skincare e-commerce hero poster for \"澄光维稳精华\" (\"Clarifying Stabilizing Essence\"). The style should be clean, light-luxury, and strongly science-skincare oriented. In the center, place a semi-transparent frosted-glass essence bottle filled with golden liquid and subtle water-droplet reflections. Use an off-white to warm gray gradient background with liquid-flow elements and microscopic molecular-structure decoration.\n\nThe poster must include the following exact Chinese copy:\n\"澄光\"\n\"维稳精华\"\n\"修护屏障\"\n\"舒缓泛红\"\n\"细腻透亮\"\n\"第 2 代升级配方\"\n\"核心成分\"\n\"神经酰胺\"\n\"泛醇 B5\"\n\"积雪草提取物\"\n\"微囊脂质体\"\n\"适合人群\"\n\"敏感肌\"\n\"熬夜肌\"\n\"换季不稳定肌\"\n\"限时到手价 229 元\"\n\"买 1 送 3\"\n\"赠洁面 15ml\"\n\"赠精华 5ml\"\n\"赠面霜 10g\"\n\nFine print:\n\"实际效果因人而异，请坚持使用\"\n\nFocus on product selling points, pricing hierarchy, gift-list modules, product naming, and short functional phrases. The result should feel premium and not tacky or overly live-commerce styled.",
+      "images": [
+        "https://github.com/user-attachments/assets/e1ddd78f-3b18-490f-bdd9-a4e5bbee147d"
+      ],
       "author": {
         "name": "Community"
       },
-      "language": "en",
+      "language": "zh",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-35",
-      "title": "Prompt:",
+      "title": "Minimal Design Prompt Collection",
       "description": "",
-      "content": "Generate an image of the authentic manuscript of [classic text title]\n\nGenerate an image of the authentic manuscript of [classic text title], and incorporate the emotional core of the work into the calligraphy",
-      "images": [],
+      "content": "Generate a series of gongbi-style bookmark designs\nDesign a postcard collaboration between The Little Prince and SpaceX\nGenerate a single-day calendar for April 19, 2026 themed around The Garden of Words\nGenerate a series of Labor Day hand-held sign designs\nGenerate a poster for the 2026 Grain Rain solar term\nGenerate a set of icon fonts for a sports app\nDesign a film-photography-style poster with the theme \"Toward the mountains and sea\"\nDesign a Shanghai postcard in black line-art style\nDesign a set of seal carvings for \"Elon Musk\"\nDesign a set of co-branded promotional materials for Durex and Chayan Yuese",
+      "images": [
+        "https://pbs.twimg.com/media/HGOtEbUbwAAnR5l?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGO_Rb9bgAAdy6i?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGO_hmeaAAA5CoZ?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGO_zZ_asAAZ7Tz?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@akokoi1",
+        "link": "https://x.com/akokoi1/status/2045693939584516441"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-36",
-      "title": "Prompt:",
+      "title": "Chinese Calligraphy Manuscript Recreation",
       "description": "",
-      "content": "Generate a calligraphy copybook practice sheet in [script style]",
-      "images": [],
+      "content": "Generate an image of the authentic manuscript of [classic text title]\n\nGenerate an image of the authentic manuscript of [classic text title], and incorporate the emotional core of the work into the calligraphy",
+      "images": [
+        "https://pbs.twimg.com/media/HGb2ERIbgAAW4R5?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGb2Em0aYAAdY2-?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGb2EHDaoAAcxgf?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGb2ERKaIAAjni4?format=jpg&name=large"
+      ],
       "author": {
         "name": "Community"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-37",
-      "title": "Prompt:",
+      "title": "Chinese Calligraphy Copybook Sheet",
       "description": "",
-      "content": "Automatically generate a high-aesthetic \"Silhouette Universe / Collector's Edition Narrative Poster\" based on [theme: xxx]. Do not default to common containers such as bottles, hourglasses, glass domes, or pocket watches. Instead, let the AI choose the most symbolic, visually strong, and narratively suitable outer silhouette for the theme. The silhouette can be an artifact, building, gate, tower, archway, dome, stairwell, corridor, statue, profile, eye, hand, skull, wing, mask, mirror, throne, ring, crack, light curtain, shadow, geometric form, spatial cross-section, stage frame, abstract symbol, or any more creative contour that best represents the theme.\n\nThe goal is not to simply place a world inside an object, but to make the entire themed universe grow naturally within, around, and through the silhouette itself. The silhouette should be elegant, recognizable, and compositionally dominant. Inside or along its boundary, generate a rich and layered narrative world strongly tied to the theme, including iconic scenes, key architecture or spaces, symbols and metaphors, traces of characters or civilizations, foreground-midground-background depth, and atmosphere with emotional tension. Elements such as doors, staircases, bridges, water, smoke, paths, light sources, ruins, mechanical structures, landscapes, abstract forms, creatures, or props should all feel unified and organically integrated rather than pasted together.\n\nThe final composition should feel like a premium collector's poster with strong design value. The large shapes should feel stable, the main silhouette should be unmistakable, and the inner world should have depth, structure, and breathing room. Details should be rich but not crowded. You may add small human silhouettes, distant buildings, beams of light, doorways, bridges, steps, corridors, reflections, skylight, or far-background structures to enhance scale, story, and epic atmosphere. The overall mood should be quiet, grand, refined, and lingering rather than noisy or overloaded.\n\nBlend the feeling of a collector's edition film poster, high-end narrative visual design, dreamy watercolor texture, and fine printed paper. Emphasize paper grain, feathered edges, watercolor brush marks, gentle diffusion, atmospheric perspective, soft haze, selective volumetric light, light passing through mist, generous negative space, and restrained layout. The image should feel premium, poetic, majestic, sacred, nostalgic, quiet, and mythic.\n\nLet the AI choose an elevated color palette based on the theme, but keep it unified, restrained, tasteful, low-saturation, and premium. Avoid chaotic high saturation, cheap neon effects, or plastic digital color. Suitable palette families may include black-gold-gray, cool blue-gray, mist white-gray, brown-red with off-white, dark copper, aged paper tones, deep sea blue, twilight purple, or silver-gray, as long as they serve the theme.\n\nFinal requirement: the first glance should give strong theme recognition and a memorable silhouette, the second glance should reveal a complete narrative world, and the third glance should still reward close inspection with depth and aftertaste. Avoid generic backgrounds, hard cut-and-paste compositions, templated fantasy assets, video-game promo art vibes, excessive cartooning, or realism that kills the artistic mood. If appropriate, subtle titles, numbering, signatures, or marks can be added as part of the poster design, but they must never overpower the image.",
-      "images": [],
+      "content": "Generate a calligraphy copybook practice sheet in [script style]",
+      "images": [
+        "https://pbs.twimg.com/media/HGb7IZWaoAA8DCz?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGb7IZpbUAAG0yL?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGb7IWbbgAEg7Kc?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGb7IWdbIAAhLEE?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@MrLarus",
+        "link": "https://x.com/MrLarus/status/2046510310253539764"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-38",
-      "title": "Prompt:",
+      "title": "Silhouette Universe Narrative Poster",
       "description": "",
-      "content": "Generate an e-commerce product detail page for [product name]",
-      "images": [],
+      "content": "Automatically generate a high-aesthetic \"Silhouette Universe / Collector's Edition Narrative Poster\" based on [theme: xxx]. Do not default to common containers such as bottles, hourglasses, glass domes, or pocket watches. Instead, let the AI choose the most symbolic, visually strong, and narratively suitable outer silhouette for the theme. The silhouette can be an artifact, building, gate, tower, archway, dome, stairwell, corridor, statue, profile, eye, hand, skull, wing, mask, mirror, throne, ring, crack, light curtain, shadow, geometric form, spatial cross-section, stage frame, abstract symbol, or any more creative contour that best represents the theme.\n\nThe goal is not to simply place a world inside an object, but to make the entire themed universe grow naturally within, around, and through the silhouette itself. The silhouette should be elegant, recognizable, and compositionally dominant. Inside or along its boundary, generate a rich and layered narrative world strongly tied to the theme, including iconic scenes, key architecture or spaces, symbols and metaphors, traces of characters or civilizations, foreground-midground-background depth, and atmosphere with emotional tension. Elements such as doors, staircases, bridges, water, smoke, paths, light sources, ruins, mechanical structures, landscapes, abstract forms, creatures, or props should all feel unified and organically integrated rather than pasted together.\n\nThe final composition should feel like a premium collector's poster with strong design value. The large shapes should feel stable, the main silhouette should be unmistakable, and the inner world should have depth, structure, and breathing room. Details should be rich but not crowded. You may add small human silhouettes, distant buildings, beams of light, doorways, bridges, steps, corridors, reflections, skylight, or far-background structures to enhance scale, story, and epic atmosphere. The overall mood should be quiet, grand, refined, and lingering rather than noisy or overloaded.\n\nBlend the feeling of a collector's edition film poster, high-end narrative visual design, dreamy watercolor texture, and fine printed paper. Emphasize paper grain, feathered edges, watercolor brush marks, gentle diffusion, atmospheric perspective, soft haze, selective volumetric light, light passing through mist, generous negative space, and restrained layout. The image should feel premium, poetic, majestic, sacred, nostalgic, quiet, and mythic.\n\nLet the AI choose an elevated color palette based on the theme, but keep it unified, restrained, tasteful, low-saturation, and premium. Avoid chaotic high saturation, cheap neon effects, or plastic digital color. Suitable palette families may include black-gold-gray, cool blue-gray, mist white-gray, brown-red with off-white, dark copper, aged paper tones, deep sea blue, twilight purple, or silver-gray, as long as they serve the theme.\n\nFinal requirement: the first glance should give strong theme recognition and a memorable silhouette, the second glance should reveal a complete narrative world, and the third glance should still reward close inspection with depth and aftertaste. Avoid generic backgrounds, hard cut-and-paste compositions, templated fantasy assets, video-game promo art vibes, excessive cartooning, or realism that kills the artistic mood. If appropriate, subtle titles, numbering, signatures, or marks can be added as part of the poster design, but they must never overpower the image.",
+      "images": [
+        "https://pbs.twimg.com/media/HGb-f9yboAAn3en?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGb-f-Aa8AEyQAL?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGb-f9za8AAysgt?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGb-f_JakAANnfD?format=jpg&name=large"
+      ],
       "author": {
         "name": "Community"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-39",
-      "title": "Prompt:",
+      "title": "E-commerce Product Detail Page",
       "description": "",
-      "content": "Generate an image of [scene / content]",
-      "images": [],
+      "content": "Generate an e-commerce product detail page for [product name]",
+      "images": [
+        "https://pbs.twimg.com/media/HGa6X8CW4AEonBd?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGa6bLFWIAAhhmc?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGa66zgWMAApBcR?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGa69eHXQAALWHS?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@MrLarus",
+        "link": "https://x.com/MrLarus/status/2046544209117634735"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-40",
-      "title": "Prompt:",
+      "title": "Dense Chinese Layout Stress Test",
       "description": "",
-      "content": "Generate an image of a handwritten Chinese medicine or Western medicine prescription",
-      "images": [],
+      "content": "Generate an image of [scene / content]",
+      "images": [
+        "https://pbs.twimg.com/media/HGCnWfOXwAAVCRn?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGCnYWcaoAAjFT7?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGCndpwXIAA_FCn?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGCne3_akAAmK3q?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@MrLarus",
+        "link": "https://x.com/MrLarus/status/2044824800909054181"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📰 Typography & Poster Design"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-41",
-      "title": "Prompt:",
+      "title": "Handwritten Chinese Medical Prescription",
       "description": "",
-      "content": "It's 10 AM in Los Angeles, 11 AM in Denver, 12 PM in Chicago, 1 PM in New York, 6 PM in London, and 2 AM in Tokyo. Render a wall with different analog clocks, each showing the correct time for its city, with the city label below each clock.",
-      "images": [],
+      "content": "Generate an image of a handwritten Chinese medicine or Western medicine prescription",
+      "images": [
+        "https://pbs.twimg.com/media/HGaqaO2W4AA2W-6?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGaqaO4XYAARyRR?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@MrLarus",
+        "link": "https://x.com/MrLarus/status/2046514998965371144"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📚 Infographics, Education & Documents"
+        "Typography & Poster Design"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-42",
-      "title": "Prompt:",
+      "title": "World Time Analog Clock Wall",
       "description": "",
-      "content": "Generate a high-quality vertical encyclopedia-style infographic for [topic].\n\nThis should not be a normal poster or a simple illustration. It should feel like a modular educational infographic that combines the clarity of a field guide, the structure of an encyclopedia page, the polish of a lifestyle knowledge card, and the shareability of a strong social-media explainer.\n\nThe image should include:\n- a clear and appealing main visual of the topic\n- several enlarged detail callouts\n- multiple rounded modular information sections\n- strong title hierarchy and highlighted key labels\n- concise but information-rich educational content\n- visual scoring, quick takeaways, or a Top 5 module\n\nAdapt the content sections automatically based on the topic. Useful categories include:\nbasic profile, classification, appearance, habits or ecology, formation mechanism or structure, growth or usage conditions, care or maintenance advice, risks and cautions, suitable users or use cases, pros and cons, and a quick scorecard.\n\nVisual requirements:\nuse a clean light background, soft colors, subtle shadows, refined small icons, rounded information cards, and neat layout. The information density should be high but not crowded, and the final image should feel publishable, collectible, and repeatable as a knowledge-card format rather than an advertisement.\n\nDo not make it look like a commercial promo poster. Emphasize knowledge organization, modular information, and a field-guide presentation.",
-      "images": [],
+      "content": "It's 10 AM in Los Angeles, 11 AM in Denver, 12 PM in Chicago, 1 PM in New York, 6 PM in London, and 2 AM in Tokyo. Render a wall with different analog clocks, each showing the correct time for its city, with the city label below each clock.",
+      "images": [
+        "https://pbs.twimg.com/media/HGYD-Y4bMAA0KxJ?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@Angaisb_",
+        "link": "https://x.com/Angaisb_/status/2046666389734179018"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📚 Infographics, Education & Documents"
+        "Infographics, Education & Documents"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-43",
-      "title": "Prompt:",
+      "title": "Encyclopedia-Style Knowledge Card",
       "description": "",
-      "content": "Create an image with a 10x10 grid of objects whose names all start with the letter A",
-      "images": [],
+      "content": "Generate a high-quality vertical encyclopedia-style infographic for [topic].\n\nThis should not be a normal poster or a simple illustration. It should feel like a modular educational infographic that combines the clarity of a field guide, the structure of an encyclopedia page, the polish of a lifestyle knowledge card, and the shareability of a strong social-media explainer.\n\nThe image should include:\n- a clear and appealing main visual of the topic\n- several enlarged detail callouts\n- multiple rounded modular information sections\n- strong title hierarchy and highlighted key labels\n- concise but information-rich educational content\n- visual scoring, quick takeaways, or a Top 5 module\n\nAdapt the content sections automatically based on the topic. Useful categories include:\nbasic profile, classification, appearance, habits or ecology, formation mechanism or structure, growth or usage conditions, care or maintenance advice, risks and cautions, suitable users or use cases, pros and cons, and a quick scorecard.\n\nVisual requirements:\nuse a clean light background, soft colors, subtle shadows, refined small icons, rounded information cards, and neat layout. The information density should be high but not crowded, and the final image should feel publishable, collectible, and repeatable as a knowledge-card format rather than an advertisement.\n\nDo not make it look like a commercial promo poster. Emphasize knowledge organization, modular information, and a field-guide presentation.",
+      "images": [
+        "https://pbs.twimg.com/media/HGcAZlsa8AEpG1O?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGcAZj5aoAAnBtd?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGcAZkVaQAABlGk?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGcAZj6bYAAitbp?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@MrLarus",
+        "link": "https://x.com/MrLarus/status/2046231542817497392"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📚 Infographics, Education & Documents"
+        "Infographics, Education & Documents"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-44",
-      "title": "Prompt:",
+      "title": "Alphabet Object Grid",
       "description": "",
-      "content": "Create a 10 × 10 grid of 100 different topics representing recent technological progress. Use a realistic, polished editorial illustration style. Each topic should appear in its own square with a short clear label underneath. Keep the grid neat on a white background. Make every topic visually different and every label correctly spelled. Use these row themes: Row 1: AI models and agents Row 2: robotics Row 3: semiconductors and compute Row 4: networks and smart devices Row 5: biotech and health technology Row 6: energy and power systems Row 7: transport and autonomy Row 8: space and aerospace Row 9: manufacturing and materials Row 10: climate and environmental technology. Show each tile as a realistic mini-scene, product-class object, lab instrument, robot, chip, vehicle, or device that clearly conveys the topic. Keep the overall style consistent, modern, realistic, and visually impressive.",
-      "images": [],
+      "content": "Create an image with a 10x10 grid of objects whose names all start with the letter A",
+      "images": [
+        "https://pbs.twimg.com/media/HGaqAFba0AES6z_?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@umesh_ai",
+        "link": "https://x.com/umesh_ai/status/2046510988367945983"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📚 Infographics, Education & Documents"
+        "Infographics, Education & Documents"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-45",
-      "title": "Prompt:",
+      "title": "100 Technology Topics Grid",
       "description": "",
-      "content": "Generate a Chinese fitness infographic for [topic].\n\nThe graphic should be both professional and practical for a normal adult to use as a training reference. Unless otherwise specified, assume the audience is a healthy adult with no major injuries, the goal is muscle gain plus basic strength improvement, the level is beginner to intermediate, the setting is a normal gym, and the total session length should stay within 40 to 60 minutes.\n\nChoose the output format automatically based on the training topic:\n\n1. If the topic is a muscle group or body part, such as chest, lats, biceps, abs, shoulders, or legs, generate a training-plan infographic for that body part.\n2. If the topic is an exercise or skill goal, such as pull-up, push-up, dips, or squat, generate an exercise-unlock or progression-plan infographic.\n\nUse a clear, modern, professional, easy-to-read Chinese infographic style in vertical format. The visual design should be clean and suitable for social sharing or personal training reference. Do not write long paragraphs. Each module should use short concise phrases, and numerical information should be prominent.\n\nThe infographic must include:\nA. Title area with main title and subtitle\nB. Training goal area\nC. Warm-up area\nD. Main training area with 4 to 6 core exercises\nE. Progression or unlock logic area\nF. Alternative exercises area\nG. Execution reminders area\nH. Recovery suggestions area\nI. Visual design requirements: modern, clean, professional, modular card layout\n\nThe final result should be a complete infographic rather than plain text paragraphs.",
-      "images": [],
+      "content": "Create a 10 × 10 grid of 100 different topics representing recent technological progress. Use a realistic, polished editorial illustration style. Each topic should appear in its own square with a short clear label underneath. Keep the grid neat on a white background. Make every topic visually different and every label correctly spelled. Use these row themes: Row 1: AI models and agents Row 2: robotics Row 3: semiconductors and compute Row 4: networks and smart devices Row 5: biotech and health technology Row 6: energy and power systems Row 7: transport and autonomy Row 8: space and aerospace Row 9: manufacturing and materials Row 10: climate and environmental technology. Show each tile as a realistic mini-scene, product-class object, lab instrument, robot, chip, vehicle, or device that clearly conveys the topic. Keep the overall style consistent, modern, realistic, and visually impressive.",
+      "images": [
+        "https://pbs.twimg.com/media/HGaW8ECaEAAq-LZ?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@chetaslua",
+        "link": "https://x.com/chetaslua/status/2046489044243403029"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📚 Infographics, Education & Documents"
+        "Infographics, Education & Documents"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-46",
-      "title": "Prompt:",
+      "title": "Fitness Training Infographic",
       "description": "",
-      "content": "Generate an image of a 2026 Gaokao exam paper for [subject name]",
-      "images": [],
+      "content": "Generate a Chinese fitness infographic for [topic].\n\nThe graphic should be both professional and practical for a normal adult to use as a training reference. Unless otherwise specified, assume the audience is a healthy adult with no major injuries, the goal is muscle gain plus basic strength improvement, the level is beginner to intermediate, the setting is a normal gym, and the total session length should stay within 40 to 60 minutes.\n\nChoose the output format automatically based on the training topic:\n\n1. If the topic is a muscle group or body part, such as chest, lats, biceps, abs, shoulders, or legs, generate a training-plan infographic for that body part.\n2. If the topic is an exercise or skill goal, such as pull-up, push-up, dips, or squat, generate an exercise-unlock or progression-plan infographic.\n\nUse a clear, modern, professional, easy-to-read Chinese infographic style in vertical format. The visual design should be clean and suitable for social sharing or personal training reference. Do not write long paragraphs. Each module should use short concise phrases, and numerical information should be prominent.\n\nThe infographic must include:\nA. Title area with main title and subtitle\nB. Training goal area\nC. Warm-up area\nD. Main training area with 4 to 6 core exercises\nE. Progression or unlock logic area\nF. Alternative exercises area\nG. Execution reminders area\nH. Recovery suggestions area\nI. Visual design requirements: modern, clean, professional, modular card layout\n\nThe final result should be a complete infographic rather than plain text paragraphs.",
+      "images": [
+        "https://pbs.twimg.com/media/HGbRt9DW8AA5V1S?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGbSwmNXIAIgywB?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGbUNRHWwAAqDe8?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGbW7-LXYAANNeF?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@MrLarus",
+        "link": "https://x.com/MrLarus/status/2046560406760505727"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📚 Infographics, Education & Documents"
+        "Infographics, Education & Documents"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-47",
-      "title": "Prompt:",
+      "title": "Gaokao Exam Paper Replica",
       "description": "",
-      "content": "Generate a three-day travel guide image for [city]",
-      "images": [],
+      "content": "Generate an image of a 2026 Gaokao exam paper for [subject name]",
+      "images": [
+        "https://pbs.twimg.com/media/HGMr98EaYAA_DsG?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGMsDCZawAAymD8?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGMsFeKbYAAqR9M?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGcD2IMagAA8Z9h?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@MrLarus",
+        "link": "https://x.com/MrLarus/status/2045529134915600868"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📚 Infographics, Education & Documents"
+        "Infographics, Education & Documents"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-48",
-      "title": "Prompt:",
+      "title": "Three-Day Travel Guide Card",
       "description": "",
-      "content": "Generate a high-design character relationship poster for [theme]. This should not be a normal illustration, but a relationship map that combines information visualization, narrative structure, poster-level design, and strong fidelity to the style of the original work.\n\nAutomatically do the following:\n- identify the source work and its core setting\n- select the 6 to 12 most representative key characters, with an upper limit of 15 if needed\n- identify and show the most important relationships, such as family ties, romance, friendship, alliances, hostility, mentor-student links, master-servant links, manipulation, betrayal, and hidden relationships\n- choose the most suitable composition automatically, such as protagonist-centered, dual-core confrontation, faction layout, family tree, or time-evolution structure\n- extract the work's style DNA, including color palette, worldbuilding symbols, texture language, emotional tone, layout rhythm, and iconic motifs\n- convert those style elements into the overall visual design of the relationship map rather than simply copying an official poster\n- use different colors, line styles, and arrows to distinguish relationship types while keeping the layout clear and readable\n- emphasize the core characters most strongly, secondary characters next, and minor characters less prominently to create a clear visual hierarchy\n- keep every character name easy to read, optionally with role or faction tags if useful\n\nThe final piece should:\n- make the main relationships understandable at a glance\n- strongly evoke the original work's identity and setting\n- combine infographic clarity with premium poster design\n- feel unified, polished, complete, and suitable for social sharing or poster display\n- avoid cheap flowchart vibes, clutter, or information overload",
-      "images": [],
+      "content": "Generate a three-day travel guide image for [city]",
+      "images": [
+        "https://pbs.twimg.com/media/HGa2KbFXMAAv9Wh?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGa2MQNXUAA-lk8?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGa2QPdWIAAPxOn?format=jpg&name=large"
+      ],
       "author": {
-        "name": "Community"
+        "name": "@MrLarus",
+        "link": "https://x.com/MrLarus/status/2046523494003851300"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "📚 Infographics, Education & Documents"
+        "Infographics, Education & Documents"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-49",
-      "title": "Prompt:",
+      "title": "Character Relationship Diagram Poster",
       "description": "",
-      "content": "Create a 16-panel expression grid of a silver-haired, blue-eyed anime girl. Her face shape, hairstyle, and clothing must remain highly consistent across all panels. The 16 expressions should include: happy, sad, angry, surprised, shy, speechless, evil grin, contemplative, curious, proud, wronged, disdainful, confused, scared, crying, and a heart expression.",
-      "images": [],
+      "content": "Generate a high-design character relationship poster for [theme]. This should not be a normal illustration, but a relationship map that combines information visualization, narrative structure, poster-level design, and strong fidelity to the style of the original work.\n\nAutomatically do the following:\n- identify the source work and its core setting\n- select the 6 to 12 most representative key characters, with an upper limit of 15 if needed\n- identify and show the most important relationships, such as family ties, romance, friendship, alliances, hostility, mentor-student links, master-servant links, manipulation, betrayal, and hidden relationships\n- choose the most suitable composition automatically, such as protagonist-centered, dual-core confrontation, faction layout, family tree, or time-evolution structure\n- extract the work's style DNA, including color palette, worldbuilding symbols, texture language, emotional tone, layout rhythm, and iconic motifs\n- convert those style elements into the overall visual design of the relationship map rather than simply copying an official poster\n- use different colors, line styles, and arrows to distinguish relationship types while keeping the layout clear and readable\n- emphasize the core characters most strongly, secondary characters next, and minor characters less prominently to create a clear visual hierarchy\n- keep every character name easy to read, optionally with role or faction tags if useful\n\nThe final piece should:\n- make the main relationships understandable at a glance\n- strongly evoke the original work's identity and setting\n- combine infographic clarity with premium poster design\n- feel unified, polished, complete, and suitable for social sharing or poster display\n- avoid cheap flowchart vibes, clutter, or information overload",
+      "images": [
+        "https://pbs.twimg.com/media/HGXHhQcbAAAFcYA?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGXHhP8WsAAMvWm?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGXHifHbUAAgLZO?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HGXHjggWgAAAGAG?format=jpg&name=large"
+      ],
       "author": {
-        "name": "卡尔的AI沃茨",
-        "link": "https://mp.weixin.qq.com/s/ASxig6mFVYxrIE8-8Fthew"
+        "name": "@MrLarus",
+        "link": "https://x.com/MrLarus/status/2046263153546174935"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🎭 Character & Consistency"
+        "Infographics, Education & Documents"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-50",
-      "title": "Prompt:",
+      "title": "16-Panel Anime Expression Grid",
       "description": "",
-      "content": "Based on this character and background, please create a character reference sheet similar to official setting materials.\n- Includes three-view drawings: front view, side view, and back view\n- Add variations of the character's facial expressions\n- Break down and display detailed parts of the clothing and equipment\n- Add a color palette\n- Include a brief explanation of the worldview setting\n- Overall, use an organized layout (white background, illustration style)",
-      "images": [],
+      "content": "Create a 16-panel expression grid of a silver-haired, blue-eyed anime girl. Her face shape, hairstyle, and clothing must remain highly consistent across all panels. The 16 expressions should include: happy, sad, angry, surprised, shy, speechless, evil grin, contemplative, curious, proud, wronged, disdainful, confused, scared, crying, and a heart expression.",
+      "images": [
+        "https://github.com/user-attachments/assets/27258fa9-086e-4dfa-b61e-d9ada90425b2",
+        "https://github.com/user-attachments/assets/81bf2289-6a5d-404a-a0d3-a781c47918e6",
+        "https://github.com/user-attachments/assets/27258fa9-086e-4dfa-b61e-d9ada90425b2\" /> | <img width=\"400\" alt=\"image\" src=\"https://github.com/user-attachments/assets/81bf2289-6a5d-404a-a0d3-a781c47918e6"
+      ],
       "author": {
         "name": "Community"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🎭 Character & Consistency"
+        "Character & Consistency"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-51",
-      "title": "Prompt:",
+      "title": "Official Character Reference Sheet",
       "description": "",
-      "content": "Theme: \\\"77 (cat's name) X KFC\\\" collaboration poster. Generate a collaboration poster featuring the same pet (absolutely consistent in appearance and coloring) with KFC brand identity (red-and-white color scheme, classic logo, restaurant scenes, etc.). Have the cat wear a KFC employee uniform, KFC employee hat, and name badge while standing at the counter, selling fried chicken, burgers, and combo meals, and interacting with chicken buckets, fries, soda, and other brand elements. The style should be lively and fun with a commercial co-branding feel, suitable for online promotion and event posters. Add appropriate Chinese copy freely for the poster.",
+      "content": "Based on this character and background, please create a character reference sheet similar to official setting materials.\n- Includes three-view drawings: front view, side view, and back view\n- Add variations of the character's facial expressions\n- Break down and display detailed parts of the clothing and equipment\n- Add a color palette\n- Include a brief explanation of the worldview setting\n- Overall, use an organized layout (white background, illustration style)",
       "images": [],
       "author": {
-        "name": "Community"
+        "name": "@MANISH1027512",
+        "link": "https://x.com/MANISH1027512/status/2045013913901867334"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🖼️ Image Editing & Style Transfer"
+        "Character & Consistency"
       ],
       "source": "zerolu"
     },
     {
       "id": "r2-52",
-      "title": "Prompt:",
+      "title": "Pet Brand Collaboration Poster",
       "description": "",
-      "content": "Colorize this comic page and translate it into Chinese, placing the text in the original positions while maintaining composition and image details consistently",
-      "images": [],
+      "content": "Theme: \\\"77 (cat's name) X KFC\\\" collaboration poster. Generate a collaboration poster featuring the same pet (absolutely consistent in appearance and coloring) with KFC brand identity (red-and-white color scheme, classic logo, restaurant scenes, etc.). Have the cat wear a KFC employee uniform, KFC employee hat, and name badge while standing at the counter, selling fried chicken, burgers, and combo meals, and interacting with chicken buckets, fries, soda, and other brand elements. The style should be lively and fun with a commercial co-branding feel, suitable for online promotion and event posters. Add appropriate Chinese copy freely for the poster.",
+      "images": [
+        "https://github.com/user-attachments/assets/7efff353-b76b-4986-9894-24823e630dd7",
+        "https://github.com/user-attachments/assets/7890dfd3-53d7-4630-99dd-63afe574142c",
+        "https://github.com/user-attachments/assets/11ad8953-e7dd-45f9-8529-e121bc487f3a",
+        "https://github.com/user-attachments/assets/7efff353-b76b-4986-9894-24823e630dd7\" /> | <img width=\"1080\" height=\"1440\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7890dfd3-53d7-4630-99dd-63afe574142c\" /> | <img width=\"896\" height=\"1200\" alt=\"image\" src=\"https://github.com/user-attachments/assets/11ad8953-e7dd-45f9-8529-e121bc487f3a"
+      ],
       "author": {
         "name": "Community"
       },
       "language": "en",
       "featured": false,
       "categories": [
-        "🖼️ Image Editing & Style Transfer"
+        "Image Editing & Style Transfer"
+      ],
+      "source": "zerolu"
+    },
+    {
+      "id": "r2-53",
+      "title": "Comic Page Coloring & Translation",
+      "description": "",
+      "content": "Colorize this comic page and translate it into Chinese, placing the text in the original positions while maintaining composition and image details consistently",
+      "images": [
+        "https://github.com/user-attachments/assets/d67a101c-2874-4e58-9855-05e8a86d891b",
+        "https://github.com/user-attachments/assets/47d1ea12-a998-4dd3-8485-6e998d8e7dfd",
+        "https://github.com/user-attachments/assets/11180e5f-430e-4706-bd03-9c09becf36be",
+        "https://github.com/user-attachments/assets/d67a101c-2874-4e58-9855-05e8a86d891b\" /> | <img width=\"816\" height=\"1296\" alt=\"image\" src=\"https://github.com/user-attachments/assets/47d1ea12-a998-4dd3-8485-6e998d8e7dfd\" /> | <img width=\"1002\" height=\"1570\" alt=\"image\" src=\"https://github.com/user-attachments/assets/11180e5f-430e-4706-bd03-9c09becf36be"
+      ],
+      "author": {
+        "name": "Community"
+      },
+      "language": "en",
+      "featured": false,
+      "categories": [
+        "Image Editing & Style Transfer"
       ],
       "source": "zerolu"
     },
@@ -3555,30 +3748,30 @@
     }
   ],
   "categories": [
+    "Character & Consistency",
     "Character Design",
     "Cinematic & Animation",
     "Comic / Storyboard",
     "E-commerce Main Image",
+    "Game & Entertainment",
     "Gaming",
+    "Image Editing & Style Transfer",
     "Infographic / Edu Visual",
     "Infographics & Field Guides",
+    "Infographics, Education & Documents",
     "Isometric",
+    "Photography & Photorealism",
     "Pixel Art",
     "Product & Food",
     "Product Marketing",
     "Profile / Avatar",
     "Research Paper Figures",
     "Social Media Post",
+    "Typography & Poster Design",
     "Typography & Posters",
-    "YouTube Thumbnail",
-    "🎬 Video, Animation & Collage",
-    "🎭 Character & Consistency",
-    "🎮 Game & Entertainment",
-    "📚 Infographics, Education & Documents",
-    "📰 Typography & Poster Design",
-    "📱 UI/UX & Social Media",
-    "📷 Photography & Photorealism",
-    "🖼️ Image Editing & Style Transfer"
+    "UI/UX & Social Media",
+    "Video, Animation & Collage",
+    "YouTube Thumbnail"
   ],
-  "total": 195
+  "total": 196
 }

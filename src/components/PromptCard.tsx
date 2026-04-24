@@ -7,6 +7,22 @@ interface PromptCardProps {
   priority?: boolean;
 }
 
+// Stable gradient per prompt ID for text-only cards
+const GRADIENTS = [
+  'from-indigo-900/60 to-zinc-900',
+  'from-violet-900/60 to-zinc-900',
+  'from-sky-900/60 to-zinc-900',
+  'from-emerald-900/50 to-zinc-900',
+  'from-rose-900/50 to-zinc-900',
+  'from-amber-900/50 to-zinc-900',
+];
+
+function gradientFor(id: string) {
+  let hash = 0;
+  for (let i = 0; i < id.length; i++) hash = (hash * 31 + id.charCodeAt(i)) | 0;
+  return GRADIENTS[Math.abs(hash) % GRADIENTS.length];
+}
+
 export function PromptCard({ prompt, onClick, priority = false }: PromptCardProps) {
   const [copied, setCopied] = useState(false);
   const [imgError, setImgError] = useState(false);
@@ -20,13 +36,14 @@ export function PromptCard({ prompt, onClick, priority = false }: PromptCardProp
   }
 
   const coverImage = prompt.images[0];
+  const hasImage = coverImage && !imgError;
 
   return (
     <div
       onClick={onClick}
       className="group relative bg-zinc-900 rounded-xl overflow-hidden border border-zinc-800 hover:border-zinc-600 cursor-pointer transition-all duration-200 hover:shadow-xl hover:shadow-black/40 hover:-translate-y-0.5"
     >
-      {coverImage && !imgError ? (
+      {hasImage ? (
         <img
           src={coverImage}
           alt={prompt.title}
@@ -36,10 +53,15 @@ export function PromptCard({ prompt, onClick, priority = false }: PromptCardProp
           className="w-full object-cover block"
         />
       ) : (
-        <div className="w-full h-40 bg-zinc-800 flex items-center justify-center">
-          <svg className="w-8 h-8 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-          </svg>
+        /* Text-only card: gradient header with prompt preview */
+        <div className={`w-full bg-gradient-to-b ${gradientFor(prompt.id)} p-4 min-h-[120px] flex flex-col justify-between`}>
+          <p className="text-xs text-zinc-300 leading-relaxed line-clamp-5 font-mono">
+            {prompt.content}
+          </p>
+          <div className="mt-2 flex items-center gap-1.5">
+            <span className="inline-block w-1.5 h-1.5 rounded-full bg-indigo-400 opacity-70" />
+            <span className="text-xs text-zinc-500">Prompt</span>
+          </div>
         </div>
       )}
 
@@ -55,9 +77,11 @@ export function PromptCard({ prompt, onClick, priority = false }: PromptCardProp
         <h3 className="text-sm font-semibold text-zinc-100 line-clamp-2 leading-snug mb-1">
           {prompt.title}
         </h3>
-        <p className="text-xs text-zinc-500 line-clamp-2 leading-relaxed">
-          {prompt.content}
-        </p>
+        {hasImage && (
+          <p className="text-xs text-zinc-500 line-clamp-2 leading-relaxed">
+            {prompt.content}
+          </p>
+        )}
       </div>
 
       <div className="px-3 pb-3 flex items-center justify-between gap-2">
