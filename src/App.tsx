@@ -60,10 +60,12 @@ export default function App() {
           {/* Row 1: brand + auth */}
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-2 flex-1 min-w-0">
-              <span className="text-lg shrink-0">🖼️</span>
+              <span className="text-xl shrink-0">🖼️</span>
               <div className="min-w-0">
-                <h1 className="text-sm font-bold text-zinc-100 leading-none truncate">GPT Image 2 Prompts</h1>
-                <p className="text-[10px] text-indigo-400 font-medium leading-none mt-0.5">AiCEO.im by Tim Janepat</p>
+                <h1 className="text-base font-extrabold text-zinc-100 leading-none truncate">
+                  <span className="text-indigo-400">Ai CEO</span> GPT Image 2 Prompts
+                </h1>
+                <p className="text-[10px] text-zinc-500 font-medium leading-none mt-0.5">AiCEO.im by Tim Janepat</p>
               </div>
             </div>
 
