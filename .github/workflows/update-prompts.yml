@@ -47,3 +47,11 @@ jobs:
             git commit -m "update prompts $(date '+%Y-%m-%d')"
             git push
           fi
+
+      - name: Deploy to VPS
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: 72.60.110.128
+          username: root
+          password: ${{ secrets.VPS_PASSWORD }}
+          script: bash /opt/deploy-gpt-image-2.sh
