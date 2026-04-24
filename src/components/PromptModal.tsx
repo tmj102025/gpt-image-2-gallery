@@ -4,9 +4,11 @@ import type { Prompt } from '../types';
 interface PromptModalProps {
   prompt: Prompt | null;
   onClose: () => void;
+  isLoggedIn: boolean;
+  onNeedLogin: () => void;
 }
 
-export function PromptModal({ prompt, onClose }: PromptModalProps) {
+export function PromptModal({ prompt, onClose, isLoggedIn, onNeedLogin }: PromptModalProps) {
   const [copied, setCopied] = useState(false);
   const [activeImg, setActiveImg] = useState(0);
 
@@ -27,6 +29,7 @@ export function PromptModal({ prompt, onClose }: PromptModalProps) {
   if (!prompt) return null;
 
   function copyPrompt() {
+    if (!isLoggedIn) { onNeedLogin(); return; }
     navigator.clipboard.writeText(prompt!.content).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
@@ -45,6 +48,7 @@ export function PromptModal({ prompt, onClose }: PromptModalProps) {
         <button
           onClick={onClose}
           className="absolute top-3 right-3 z-10 p-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-zinc-400 hover:text-zinc-200 transition-colors"
+          title="ปิด"
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -93,11 +97,6 @@ export function PromptModal({ prompt, onClose }: PromptModalProps) {
                     {prompt.size}
                   </span>
                 )}
-                {prompt.source && (
-                  <span className="px-2 py-0.5 bg-zinc-800 text-zinc-600 text-xs rounded-full">
-                    {prompt.source}
-                  </span>
-                )}
               </div>
               <h2 className="text-lg font-semibold text-zinc-100 leading-snug">{prompt.title}</h2>
             </div>
@@ -109,26 +108,44 @@ export function PromptModal({ prompt, onClose }: PromptModalProps) {
 
           <div className="relative">
             <div className="flex items-center justify-between mb-2">
-              <span className="text-xs font-medium text-zinc-500 uppercase tracking-wide">Prompt</span>
+              <span className="text-xs font-medium text-zinc-500 uppercase tracking-wide">Prompt Text</span>
               <button
                 onClick={copyPrompt}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
                   copied
                     ? 'bg-green-600/20 text-green-400 border border-green-600/40'
-                    : 'bg-indigo-600 hover:bg-indigo-500 text-white'
+                    : isLoggedIn
+                      ? 'bg-indigo-600 hover:bg-indigo-500 text-white'
+                      : 'bg-zinc-700 hover:bg-zinc-600 text-zinc-300 border border-zinc-600'
                 }`}
               >
-                {copied ? 'Copied!' : 'Copy Prompt'}
+                {copied ? 'คัดลอกแล้ว ✓' : isLoggedIn ? '📋 คัดลอก Prompt' : '🔒 เข้าสู่ระบบเพื่อคัดลอก'}
               </button>
             </div>
-            <pre className="bg-zinc-950 rounded-xl p-4 text-xs text-zinc-300 leading-relaxed overflow-x-auto whitespace-pre-wrap border border-zinc-800 font-mono">
-              {prompt.content}
-            </pre>
+
+            {/* Blur prompt if not logged in */}
+            <div className="relative">
+              <pre className={`bg-zinc-950 rounded-xl p-4 text-xs text-zinc-300 leading-relaxed overflow-x-auto whitespace-pre-wrap border border-zinc-800 font-mono transition-all ${!isLoggedIn ? 'blur-sm select-none' : ''}`}>
+                {prompt.content}
+              </pre>
+              {!isLoggedIn && (
+                <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-zinc-950/40 rounded-xl">
+                  <span className="text-2xl">🔒</span>
+                  <p className="text-sm font-medium text-zinc-200">เข้าสู่ระบบเพื่อดู Prompt เต็ม</p>
+                  <button
+                    onClick={onNeedLogin}
+                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold rounded-lg transition-all"
+                  >
+                    เข้าสู่ระบบด้วย Google
+                  </button>
+                </div>
+              )}
+            </div>
           </div>
 
           <div className="pt-1 border-t border-zinc-800">
             <p className="text-xs text-zinc-500">
-              By{' '}
+              โดย{' '}
               {prompt.author.link ? (
                 <a
                   href={prompt.author.link}

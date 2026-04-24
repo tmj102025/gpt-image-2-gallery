@@ -5,9 +5,10 @@ interface PromptCardProps {
   prompt: Prompt;
   onClick: () => void;
   priority?: boolean;
+  isLoggedIn: boolean;
+  onNeedLogin: () => void;
 }
 
-// Stable gradient per prompt ID for text-only cards
 const GRADIENTS = [
   'from-indigo-900/60 to-zinc-900',
   'from-violet-900/60 to-zinc-900',
@@ -23,12 +24,13 @@ function gradientFor(id: string) {
   return GRADIENTS[Math.abs(hash) % GRADIENTS.length];
 }
 
-export function PromptCard({ prompt, onClick, priority = false }: PromptCardProps) {
+export function PromptCard({ prompt, onClick, priority = false, isLoggedIn, onNeedLogin }: PromptCardProps) {
   const [copied, setCopied] = useState(false);
   const [imgError, setImgError] = useState(false);
 
   function copyPrompt(e: React.MouseEvent) {
     e.stopPropagation();
+    if (!isLoggedIn) { onNeedLogin(); return; }
     navigator.clipboard.writeText(prompt.content).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
@@ -53,7 +55,6 @@ export function PromptCard({ prompt, onClick, priority = false }: PromptCardProp
           className="w-full object-cover block"
         />
       ) : (
-        /* Text-only card: gradient header with prompt preview */
         <div className={`w-full bg-gradient-to-b ${gradientFor(prompt.id)} p-4 min-h-[120px] flex flex-col justify-between`}>
           <p className="text-xs text-zinc-300 leading-relaxed line-clamp-5 font-mono">
             {prompt.content}
@@ -88,14 +89,16 @@ export function PromptCard({ prompt, onClick, priority = false }: PromptCardProp
         <span className="text-xs text-zinc-600 truncate">{prompt.author.name}</span>
         <button
           onClick={copyPrompt}
-          title="Copy prompt"
+          title={isLoggedIn ? 'คัดลอก prompt' : 'เข้าสู่ระบบเพื่อคัดลอก'}
           className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-medium transition-all shrink-0 ${
             copied
               ? 'bg-green-600/20 text-green-400 border border-green-600/40'
-              : 'bg-zinc-800 text-zinc-400 border border-zinc-700 hover:bg-zinc-700 hover:text-zinc-200 opacity-0 group-hover:opacity-100'
+              : isLoggedIn
+                ? 'bg-zinc-800 text-zinc-400 border border-zinc-700 hover:bg-zinc-700 hover:text-zinc-200 opacity-0 group-hover:opacity-100'
+                : 'bg-zinc-800/80 text-zinc-500 border border-zinc-700 opacity-0 group-hover:opacity-100'
           }`}
         >
-          {copied ? 'Copied' : 'Copy'}
+          {copied ? 'คัดลอกแล้ว ✓' : isLoggedIn ? 'คัดลอก' : '🔒 คัดลอก'}
         </button>
       </div>
     </div>
