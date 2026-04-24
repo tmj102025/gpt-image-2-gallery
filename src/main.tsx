@@ -5,9 +5,7 @@ import { AuthProvider } from './auth/AuthContext'
 import './index.css'
 import App from './App.tsx'
 
-// ใส่ Google OAuth Client ID ของคุณที่นี่
-// สร้างได้ที่: https://console.cloud.google.com → APIs & Services → Credentials
-const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID ?? 'YOUR_GOOGLE_CLIENT_ID_HERE'
+const GOOGLE_CLIENT_ID = '630632638195-7785aqknrtvuob37mi642bkor8h87l02.apps.googleusercontent.com'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
