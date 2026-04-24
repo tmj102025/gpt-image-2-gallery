@@ -20,7 +20,7 @@ async function upsertLead(u: GoogleUser) {
   try {
     // Check if lead exists
     const search = await fetch(
-      `${PB_URL}/api/collections/leads/records?filter=${encodeURIComponent(`email="${u.email}"`)}`,
+      `${PB_URL}/api/collections/gpt_image2_leads/records?filter=${encodeURIComponent(`email="${u.email}"`)}`,
       { headers: { 'Content-Type': 'application/json' } }
     );
     const result = await search.json();
@@ -28,7 +28,7 @@ async function upsertLead(u: GoogleUser) {
     if (result.items?.length > 0) {
       // Update existing — increment login_count
       const existing = result.items[0];
-      await fetch(`${PB_URL}/api/collections/leads/records/${existing.id}`, {
+      await fetch(`${PB_URL}/api/collections/gpt_image2_leads/records/${existing.id}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -39,7 +39,7 @@ async function upsertLead(u: GoogleUser) {
       });
     } else {
       // New lead
-      await fetch(`${PB_URL}/api/collections/leads/records`, {
+      await fetch(`${PB_URL}/api/collections/gpt_image2_leads/records`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
