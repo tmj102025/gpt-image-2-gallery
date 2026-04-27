@@ -69,7 +69,7 @@ export function PromptModal({ prompt, onClose, isLoggedIn, onNeedLogin }: Prompt
                     key={i}
                     onClick={() => setActiveImg(i)}
                     className={`shrink-0 w-14 h-14 rounded-lg overflow-hidden border-2 transition-all ${
-                      activeImg === i ? 'border-indigo-500' : 'border-transparent opacity-60 hover:opacity-100'
+                      activeImg === i ? 'border-emerald-500' : 'border-transparent opacity-60 hover:opacity-100'
                     }`}
                   >
                     <img src={img} alt="" className="w-full h-full object-cover" />
@@ -85,7 +85,7 @@ export function PromptModal({ prompt, onClose, isLoggedIn, onNeedLogin }: Prompt
             <div className="flex-1">
               <div className="flex flex-wrap gap-1.5 mb-2">
                 {prompt.categories.map(cat => (
-                  <span key={cat} className="px-2 py-0.5 bg-indigo-500/20 text-indigo-400 text-xs rounded-full border border-indigo-500/30">
+                  <span key={cat} className="px-2 py-0.5 bg-emerald-500/20 text-emerald-400 text-xs rounded-full border border-emerald-500/30">
                     {cat}
                   </span>
                 ))}
@@ -115,7 +115,7 @@ export function PromptModal({ prompt, onClose, isLoggedIn, onNeedLogin }: Prompt
                   copied
                     ? 'bg-green-600/20 text-green-400 border border-green-600/40'
                     : isLoggedIn
-                      ? 'bg-indigo-600 hover:bg-indigo-500 text-white'
+                      ? 'bg-emerald-600 hover:bg-emerald-500 text-white'
                       : 'bg-zinc-700 hover:bg-zinc-600 text-zinc-300 border border-zinc-600'
                 }`}
               >
@@ -134,7 +134,7 @@ export function PromptModal({ prompt, onClose, isLoggedIn, onNeedLogin }: Prompt
                   <p className="text-sm font-medium text-zinc-200">เข้าสู่ระบบเพื่อดู Prompt เต็ม</p>
                   <button
                     onClick={onNeedLogin}
-                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold rounded-lg transition-all"
+                    className="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold rounded-lg transition-all"
                   >
                     เข้าสู่ระบบด้วย Google
                   </button>
@@ -151,7 +151,7 @@ export function PromptModal({ prompt, onClose, isLoggedIn, onNeedLogin }: Prompt
                   href={prompt.author.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-zinc-300 hover:text-indigo-400 transition-colors"
+                  className="text-zinc-300 hover:text-emerald-400 transition-colors"
                 >
                   {prompt.author.name}
                 </a>

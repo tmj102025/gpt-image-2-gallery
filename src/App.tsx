@@ -28,6 +28,13 @@ export default function App() {
     },
   });
 
+  function goHome() {
+    setSearchQuery('');
+    setSelectedCategories([]);
+    setVisibleCount(24);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
   const toggleCategory = useCallback((cat: string) => {
     setSelectedCategories(prev =>
       prev.includes(cat) ? prev.filter(c => c !== cat) : [...prev, cat]
@@ -53,36 +60,30 @@ export default function App() {
   }, [shuffled, searchQuery, selectedCategories]);
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-100">
+    <div className="min-h-screen bg-zinc-950 text-zinc-100 flex flex-col">
       {/* Header */}
       <header className="sticky top-0 z-40 bg-zinc-950/95 backdrop-blur border-b border-zinc-800/60">
         <div className="max-w-7xl mx-auto px-4 pt-3 pb-2 space-y-2">
           {/* Row 1: brand + auth */}
           <div className="flex items-center gap-3">
-            <div className="flex items-center gap-2 flex-1 min-w-0">
+            <button
+              onClick={goHome}
+              className="flex items-center gap-2 flex-1 min-w-0 text-left hover:opacity-80 transition-opacity"
+            >
               <span className="text-xl shrink-0">🖼️</span>
               <div className="min-w-0">
                 <h1 className="text-base font-extrabold text-zinc-100 leading-none truncate">
-                  <span className="text-indigo-400">Ai CEO</span> GPT Image 2 Prompts
+                  <span className="text-emerald-400">Ai CEO</span> GPT Image 2 Prompts
                 </h1>
                 <p className="text-[10px] text-zinc-500 font-medium leading-none mt-0.5">AiCEO.im by Tim Janepat</p>
               </div>
-            </div>
+            </button>
 
-            {/* Auth — compact on mobile */}
             {user ? (
               <div className="shrink-0 flex items-center gap-1.5">
-                <img
-                  src={user.picture}
-                  alt={user.name}
-                  referrerPolicy="no-referrer"
-                  className="w-7 h-7 rounded-full border border-zinc-600"
-                />
+                <img src={user.picture} alt={user.name} referrerPolicy="no-referrer" className="w-7 h-7 rounded-full border border-zinc-600" />
                 <span className="hidden sm:block text-xs text-zinc-300 max-w-[100px] truncate">{user.name}</span>
-                <button
-                  onClick={logout}
-                  className="px-2.5 py-1 text-xs text-zinc-400 hover:text-zinc-200 border border-zinc-700 hover:border-zinc-500 rounded-lg transition-all"
-                >
+                <button onClick={logout} className="px-2.5 py-1 text-xs text-zinc-400 hover:text-zinc-200 border border-zinc-700 hover:border-zinc-500 rounded-lg transition-all">
                   ออก
                 </button>
               </div>
@@ -103,38 +104,23 @@ export default function App() {
             )}
           </div>
 
-          {/* Row 2: Search */}
-          <SearchBar
-            value={searchQuery}
-            onChange={v => { setSearchQuery(v); setVisibleCount(24); }}
-          />
-
-          {/* Row 3: Category pills — horizontal scroll */}
-          <CategoryFilter
-            categories={data?.categories ?? []}
-            selected={selectedCategories}
-            onToggle={toggleCategory}
-          />
+          <SearchBar value={searchQuery} onChange={v => { setSearchQuery(v); setVisibleCount(24); }} />
+          <CategoryFilter categories={data?.categories ?? []} selected={selectedCategories} onToggle={toggleCategory} />
         </div>
       </header>
 
       {/* Main content */}
-      <main className="max-w-7xl mx-auto px-4 py-6">
-        {/* Status bar */}
+      <main className="flex-1 max-w-7xl mx-auto w-full px-4 py-6">
         {!loading && (
           <div className="flex items-center gap-3 mb-4">
             <p className="text-xs text-zinc-600">{data?.total ?? 0} prompts ทั้งหมด</p>
-            {!user && (
-              <p className="text-xs text-indigo-400/80">
-                🔒 เข้าสู่ระบบเพื่อคัดลอก prompt
-              </p>
-            )}
+            {!user && <p className="text-xs text-emerald-500/80">🔒 เข้าสู่ระบบเพื่อคัดลอก prompt</p>}
           </div>
         )}
 
         {loading ? (
           <div className="flex flex-col items-center justify-center py-24 gap-3">
-            <div className="w-8 h-8 border-2 border-indigo-500 border-t-transparent rounded-full animate-spin" />
+            <div className="w-8 h-8 border-2 border-emerald-500 border-t-transparent rounded-full animate-spin" />
             <p className="text-zinc-500 text-sm">กำลังโหลด prompt...</p>
           </div>
         ) : displayPrompts.length === 0 ? (
@@ -148,22 +134,13 @@ export default function App() {
             <div className="columns-2 sm:columns-3 md:columns-4 lg:columns-5 gap-3">
               {displayPrompts.slice(0, visibleCount).map((p, i) => (
                 <div key={p.id} className="break-inside-avoid mb-3">
-                  <PromptCard
-                    prompt={p}
-                    onClick={() => setSelectedPrompt(p)}
-                    priority={i < 6}
-                    isLoggedIn={!!user}
-                    onNeedLogin={() => setShowLoginModal(true)}
-                  />
+                  <PromptCard prompt={p} onClick={() => setSelectedPrompt(p)} priority={i < 6} isLoggedIn={!!user} onNeedLogin={() => setShowLoginModal(true)} />
                 </div>
               ))}
             </div>
             {visibleCount < displayPrompts.length && (
               <div className="flex justify-center mt-8">
-                <button
-                  onClick={() => setVisibleCount(v => v + 24)}
-                  className="px-6 py-2.5 bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 hover:border-zinc-500 text-zinc-300 text-sm font-medium rounded-xl transition-all"
-                >
+                <button onClick={() => setVisibleCount(v => v + 24)} className="px-6 py-2.5 bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 hover:border-zinc-500 text-zinc-300 text-sm font-medium rounded-xl transition-all">
                   โหลดเพิ่ม ({displayPrompts.length - visibleCount} prompt เหลืออยู่)
                 </button>
               </div>
@@ -172,13 +149,26 @@ export default function App() {
         )}
       </main>
 
+      {/* Footer */}
+      <footer className="border-t border-zinc-800/60 mt-8">
+        <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <p className="text-xs text-zinc-500">© 2026 AiCEO.im by Tim Janepat</p>
+          <a
+            href="https://youtube.com/TimJanepat"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-xs text-zinc-400 hover:text-red-400 transition-colors group"
+          >
+            <svg className="w-4 h-4 text-red-500" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+            <span className="group-hover:underline">youtube.com/TimJanepat</span>
+          </a>
+        </div>
+      </footer>
+
       {/* Modals */}
-      <PromptModal
-        prompt={selectedPrompt}
-        onClose={() => setSelectedPrompt(null)}
-        isLoggedIn={!!user}
-        onNeedLogin={() => setShowLoginModal(true)}
-      />
+      <PromptModal prompt={selectedPrompt} onClose={() => setSelectedPrompt(null)} isLoggedIn={!!user} onNeedLogin={() => setShowLoginModal(true)} />
       <LoginPromptModal open={showLoginModal} onClose={() => setShowLoginModal(false)} />
     </div>
   );

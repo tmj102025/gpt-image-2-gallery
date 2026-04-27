@@ -27,7 +27,7 @@ export function CategoryFilter({ categories, selected, onToggle }: CategoryFilte
             onClick={() => onToggle(cat)}
             className={`shrink-0 px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
               active
-                ? 'bg-indigo-600 text-white border border-indigo-500'
+                ? 'bg-emerald-600 text-white border border-emerald-500'
                 : 'bg-zinc-800/80 text-zinc-400 border border-zinc-700 hover:border-zinc-500 hover:text-zinc-200'
             }`}
           >
